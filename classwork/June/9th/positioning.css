@@ -1,0 +1,46 @@
+html {
+    font: times new roman;
+    font-size: larger;
+}
+
+h1 {
+    margin-left: 195px;
+}
+
+p {
+    margin-left: 175px;
+    width: 675px;
+}
+
+#fixed {
+    background-color: #eee;
+    width: 150px;
+    text-align: center;
+    font-size: x-large;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#relative {
+    background-color: #eee;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 150px;
+    padding-top: 25px;
+    position: relative;
+    left: 175px;
+}
+
+#absolute {
+    background-color: #999;
+    width: 205px;
+    text-align: center;
+    font-size: x-large;
+    padding: 25px;
+    position: absolute;
+    left: 425px;
+    top: 125px;
+}
